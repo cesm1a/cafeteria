@@ -1,0 +1,28 @@
+CRITICAL - 2023-06-05 16:07:11 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 686.
+ 1 APPPATH\Controllers\Home.php(686): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Home.php', 686)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 16:20:55 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 686.
+ 1 APPPATH\Controllers\Home.php(686): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Home.php', 686)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 16:35:26 --> Undefined array key "idvolqueta"
+in APPPATH\Controllers\Home.php on line 687.
+ 1 APPPATH\Controllers\Home.php(687): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idvolqueta"', 'APPPATH\\Controllers\\Home.php', 687)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 17:47:04 --> Undefined array key "idvolqueta"
+in APPPATH\Controllers\Home.php on line 796.
+ 1 APPPATH\Controllers\Home.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idvolqueta"', 'APPPATH\\Controllers\\Home.php', 796)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->updateprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

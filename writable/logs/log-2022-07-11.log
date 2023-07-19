@@ -1,0 +1,18 @@
+ERROR - 2022-07-11 07:25:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_t_clientes` PRIMARY KEY(`cifcl`)
+) DEFAULT CHARACTER SE...' at line 4
+ERROR - 2022-07-11 07:36:15 --> Table 't_categories' already exists
+CRITICAL - 2022-07-11 11:31:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Models\categoriasModel.php on line 11.
+ 1 APPPATH\Controllers\Home.php(16): App\Models\categoriasModel->mostraCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 11:46:17 --> Undefined variable $datos
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->prueba()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

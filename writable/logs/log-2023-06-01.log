@@ -1,0 +1,32 @@
+CRITICAL - 2023-06-01 09:52:34 --> Undefined array key "equipo"
+in APPPATH\Controllers\Home.php on line 363.
+ 1 APPPATH\Controllers\Home.php(363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'APPPATH\\Controllers\\Home.php', 363)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->crearmaquina()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 10:19:44 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 55.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(418): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarMaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 10:27:24 --> Undefined array key "equipo"
+in APPPATH\Controllers\Home.php on line 427.
+ 1 APPPATH\Controllers\Home.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'APPPATH\\Controllers\\Home.php', 427)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->updateMaquina()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 15:21:45 --> Undefined array key "equipo"
+in APPPATH\Controllers\Home.php on line 458.
+ 1 APPPATH\Controllers\Home.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipo"', 'APPPATH\\Controllers\\Home.php', 458)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nuevovolqueta()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

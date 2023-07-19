@@ -1,0 +1,12 @@
+SELECT p.ID, p.NombreProducto, p.Stock
+FROM productos p
+INNER JOIN ventas v ON p.ID = v.idproducto
+GROUP BY p.ID, p.NombreProducto, p.Stock
+HAVING p.Stock = MAX(p.Stock);
+
+SELECT p.ID, p.NombreProducto, SUM(v.cantidadproducto) AS TotalVentas
+FROM productos p
+INNER JOIN ventas v ON p.ID = v.idproducto
+GROUP BY p.ID, p.NombreProducto
+ORDER BY TotalVentas DESC
+LIMIT 1;

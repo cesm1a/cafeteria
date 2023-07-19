@@ -1,0 +1,178 @@
+CRITICAL - 2023-06-02 19:06:51 --> Undefined property: stdClass::$idoperador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idoperador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(592): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:56:09 --> Undefined property: stdClass::$nameoperador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nameoperador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(595): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:57:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 4 APPPATH\Controllers\Home.php(595): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:11:33 --> Undefined property: stdClass::$operador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$operador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(599): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:15:02 --> Undefined property: stdClass::$operador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$operador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(599): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:15:07 --> Undefined property: stdClass::$operador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$operador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(599): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:16:51 --> Undefined constant "App\Controllers\operador"
+in APPPATH\Controllers\Home.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:21:13 --> Undefined property: stdClass::$operador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$operador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(594): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:21:15 --> Undefined property: stdClass::$operador
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 42.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$operador', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(594): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:32:55 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 3.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(595): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:33:00 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php on line 3.
+ 1 APPPATH\Views\preoperacionamarilla\viewcpreamarilla.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionamarilla\\viewcpreamarilla.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionamarilla/viewcpreamarilla', [], true)
+ 5 APPPATH\Controllers\Home.php(595): view('preoperacionamarilla/viewcpreamarilla', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarPreoamarila()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:51:17 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 608.
+ 1 APPPATH\Controllers\Home.php(608): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Home.php', 608)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:51:57 --> Undefined array key "cc"
+in APPPATH\Controllers\Home.php on line 608.
+ 1 APPPATH\Controllers\Home.php(608): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cc"', 'APPPATH\\Controllers\\Home.php', 608)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:53:12 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:54:08 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:54:27 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:55:33 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\SERVIDORPHP\htdocs\construcsionApp\app\Controllers\Home.php on line 610
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Home.php(610): view('preoperacionamarilla/upreoperacionamarilla', '6')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:56:33 --> Undefined array key "cc"
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cc"', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 21:07:52 --> Undefined array key "cc"
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cc"', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 21:12:50 --> Undefined array key "cc"
+in APPPATH\Controllers\Home.php on line 610.
+ 1 APPPATH\Controllers\Home.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cc"', 'APPPATH\\Controllers\\Home.php', 610)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->upreoperacionamarilla()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

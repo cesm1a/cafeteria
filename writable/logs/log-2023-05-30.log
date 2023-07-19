@@ -1,0 +1,115 @@
+CRITICAL - 2023-05-30 14:56:44 --> Too few arguments to function App\Controllers\Home::eliminarempleados(), 0 passed in C:\SERVIDORPHP\htdocs\construcsionApp\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->eliminarempleados()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:01:03 --> Invalid file: panel/uempleados.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('panel/uempleados.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panel/uempleados', [], true)
+ 3 APPPATH\Controllers\Home.php(91): view('panel/uempleados')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:09:33 --> Undefined array key "nombres"
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres"', 'APPPATH\\Controllers\\Home.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:38:14 --> Attempt to read property "nombres" on array
+in APPPATH\Views\panel\uempleados.php on line 18.
+ 1 APPPATH\Views\panel\uempleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombres" on array', 'APPPATH\\Views\\panel\\uempleados.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\uempleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panel/uempleados', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('panel/uempleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:40:46 --> Undefined variable $data
+in APPPATH\Views\panel\uempleados.php on line 18.
+ 1 APPPATH\Views\panel\uempleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\panel\\uempleados.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\uempleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panel/uempleados', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('panel/uempleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:54:53 --> Undefined variable $data
+in APPPATH\Views\panel\uempleados.php on line 1.
+ 1 APPPATH\Views\panel\uempleados.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\panel\\uempleados.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\uempleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panel/uempleados', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('panel/uempleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:56:25 --> Undefined variable $data
+in APPPATH\Views\panel\uempleados.php on line 1.
+ 1 APPPATH\Views\panel\uempleados.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\panel\\uempleados.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\panel\\uempleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('panel/uempleados', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('panel/uempleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 18:58:17 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 97.
+ 1 APPPATH\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:09:07 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:09:11 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:20:04 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:20:08 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:21:08 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 19:22:30 --> Undefined array key "numerodocumento"
+in APPPATH\Controllers\Home.php on line 91.
+ 1 APPPATH\Controllers\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numerodocumento"', 'APPPATH\\Controllers\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarempleado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

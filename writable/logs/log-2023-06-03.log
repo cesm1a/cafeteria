@@ -1,0 +1,55 @@
+CRITICAL - 2023-06-03 18:17:34 --> Undefined array key "Estructura"
+in APPPATH\Controllers\Home.php on line 742.
+ 1 APPPATH\Controllers\Home.php(742): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Estructura"', 'APPPATH\\Controllers\\Home.php', 742)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 18:19:51 --> Undefined array key "Estructura"
+in APPPATH\Controllers\Home.php on line 742.
+ 1 APPPATH\Controllers\Home.php(742): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Estructura"', 'APPPATH\\Controllers\\Home.php', 742)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 18:20:11 --> Undefined array key "Observaciones"
+in APPPATH\Controllers\Home.php on line 743.
+ 1 APPPATH\Controllers\Home.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Observaciones"', 'APPPATH\\Controllers\\Home.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 19:14:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(770): CodeIgniter\Model->__call('eliminarprevehiculopesado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->eliminarprevehiculopesado()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 20:08:41 --> Undefined property: mysqli::$idvolqueta
+in APPPATH\Views\preoperacionvehiculopesado\viewcpreoperacionvehiculopesado.php on line 41.
+ 1 APPPATH\Views\preoperacionvehiculopesado\viewcpreoperacionvehiculopesado.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$idvolqueta', 'APPPATH\\Views\\preoperacionvehiculopesado\\viewcpreoperacionvehiculopesado.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\preoperacionvehiculopesado\\viewcpreoperacionvehiculopesado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('preoperacionvehiculopesado/viewcpreoperacionvehiculopesado', [], true)
+ 5 APPPATH\Controllers\Home.php(763): view('preoperacionvehiculopesado/viewcpreoperacionvehiculopesado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listaprevehiculopesado()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 20:28:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\categoriasModel.php on line 280.
+ 1 APPPATH\Controllers\Home.php(754): App\Models\categoriasModel->mostrarpreoperacionvehiculopesado()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listaprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 20:29:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\categoriasModel.php on line 280.
+ 1 APPPATH\Controllers\Home.php(754): App\Models\categoriasModel->mostrarpreoperacionvehiculopesado()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listaprevehiculopesado()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

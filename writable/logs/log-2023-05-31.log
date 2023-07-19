@@ -1,0 +1,134 @@
+CRITICAL - 2023-05-31 05:10:01 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Home.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->updateEmployes()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 06:14:01 --> Undefined property: stdClass::$idempleado
+in APPPATH\Views\cargo\viewcargo.php on line 44.
+ 1 APPPATH\Views\cargo\viewcargo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idempleado', 'APPPATH\\Views\\cargo\\viewcargo.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cargo\\viewcargo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('cargo/viewcargo', [], true)
+ 5 APPPATH\Controllers\Home.php(174): view('cargo/viewcargo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarcargos()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 11:13:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 874.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(236): CodeIgniter\Model->__call('mostrardep', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listardep()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 11:32:29 --> Invalid file: cargo/viewdep.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cargo/viewdep.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('cargo/viewdep', [], true)
+ 3 APPPATH\Controllers\Home.php(242): view('cargo/viewdep', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listardep()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 11:47:25 --> Undefined array key "cargo"
+in APPPATH\Controllers\Home.php on line 159.
+ 1 APPPATH\Controllers\Home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Controllers\\Home.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nuevocargo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 11:48:28 --> Undefined array key "cargo"
+in APPPATH\Controllers\Home.php on line 159.
+ 1 APPPATH\Controllers\Home.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Controllers\\Home.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->nuevocargo()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 12:00:04 --> Undefined property: stdClass::$Descrip_dep
+in APPPATH\Views\dep\actualizadep.php on line 20.
+ 1 APPPATH\Views\dep\actualizadep.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Descrip_dep', 'APPPATH\\Views\\dep\\actualizadep.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dep\\actualizadep.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dep/actualizadep', [], true)
+ 5 APPPATH\Controllers\Home.php(268): view('dep/actualizadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizardep()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 12:02:08 --> Undefined array key "cargo"
+in APPPATH\Controllers\Home.php on line 277.
+ 1 APPPATH\Controllers\Home.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Controllers\\Home.php', 277)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->updateDep()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 17:40:10 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 20.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(403): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarmaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 18:26:31 --> Undefined property: stdClass::$año
+in APPPATH\Views\maquina\viewmaquina.php on line 52.
+ 1 APPPATH\Views\maquina\viewmaquina.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$año', 'APPPATH\\Views\\maquina\\viewmaquina.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\viewmaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/viewmaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(377): view('maquina/viewmaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->listarmaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 18:33:03 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 20.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(403): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarmaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 18:36:22 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 20.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(403): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarmaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 18:51:35 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 20.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(403): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarmaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 18:53:09 --> Undefined property: stdClass::$descp_frente
+in APPPATH\Views\maquina\actualizamaquina.php on line 20.
+ 1 APPPATH\Views\maquina\actualizamaquina.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descp_frente', 'APPPATH\\Views\\maquina\\actualizamaquina.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\maquina\\actualizamaquina.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('maquina/actualizamaquina', [], true)
+ 5 APPPATH\Controllers\Home.php(403): view('maquina/actualizamaquina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->actualizarMaquina()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
