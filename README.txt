@@ -26,3 +26,11 @@ codeigniter 4
 ***
 
 el archivo de base datos estas adjunto al proyecto dentro de APP
+
+******************************************************
+
+para acceso desde el login o ormulario de inicio:
+uauario: prueba@gmail.com
+clave: 123
+
+
