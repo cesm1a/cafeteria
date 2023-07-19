@@ -1,4 +1,4 @@
-## Table of Contents
+ro## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
@@ -25,4 +25,4 @@ codeigniter 4
 
 ***
 
-el archivo de base datos estas adjunto al proyecto
+el archivo de base datos estas adjunto al proyecto dentro de APP
